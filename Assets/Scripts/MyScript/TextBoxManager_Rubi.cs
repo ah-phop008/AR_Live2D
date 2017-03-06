@@ -1,0 +1,88 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class TextBoxManager_Rubi : MonoBehaviour {
+
+	const int KIND_OF_SPEECH = 3;//テキストのパターン数
+	string[] Speech = new string[KIND_OF_SPEECH];
+
+
+	float time = 0;
+	public float WaitTime = 2.5f;
+	int currentLine = 0;
+	string name;
+	Image panel;
+	Text uiText;
+	bool TextVisible = false;
+	int SceneNO;
+
+	// Use this for initialization
+	void Start () {
+		SceneNO = GetComponent<LAppModelProxy> ().sceneNo;
+		panel = GameObject.Find ("Panel").GetComponent<Image> ();
+		uiText = GameObject.Find ("Text").GetComponent<Text> ();
+		uiText.enabled = false;
+		panel.GetComponent<Image> ().enabled = false;
+
+		setText ();
+
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		if (LAppLive2DManager.sceneIndex == SceneNO) {
+			if (LAppModel.Oparate) {
+				uiText.enabled = true;
+				panel.GetComponent<Image> ().enabled = true;
+				name = LAppModel.NowMotionName;
+				BranchText ();
+
+				TextVisible = true;
+				LAppModel.Oparate = false;
+			} else if (TextVisible) {
+
+				if (time > WaitTime) {
+					uiText.enabled = false;
+					panel.GetComponent<Image> ().enabled = false;
+					time = 0;
+					TextVisible = false;
+				}
+				time += Time.deltaTime;
+
+			}
+				
+			if (Input.GetKeyDown (KeyCode.Escape)) Application.Quit ();
+		}
+	}
+
+	void BranchText () {
+		switch (name)
+		{
+		case "tap_body_0":
+			uiText.text = Speech [0];
+			break;
+
+		case "flick_head_0" :
+			uiText.text = Speech [1];
+			break;
+
+		case "tap_head_0" :
+			uiText.text = Speech [2];
+			break;
+
+		}
+	}
+
+
+	void setText () {
+
+		Speech [0] = "tap_budy_0";
+
+		Speech [1] = "なにぃ～～？";
+
+		Speech [2] = "わああ～～～～";
+
+	}
+}

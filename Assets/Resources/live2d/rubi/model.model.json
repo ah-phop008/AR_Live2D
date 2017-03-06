@@ -1,0 +1,37 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures":
+	[
+		"model.2048/texture_00.png"
+	],
+	"physics":"physics.json",
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_PSD.03"},
+		{"name":"body", "id":"D_PSD.16"}
+		
+	],
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/rubimabataki.mtn","fade_in":2000, "fade_out":2000},
+			{"file":"motions/rubinikkori.mtn","fade_in":2000, "fade_out":2000}
+			
+		],
+		"tap_body":
+		[
+			
+		],
+		"flick_head":
+		[
+			{"file":"motions/rubiatamayosiyosi.mtn"}
+		],
+		"tap_head":
+		[
+			{"file":"motions/rubiatamatacchi.mtn"}
+		]
+	}
+}

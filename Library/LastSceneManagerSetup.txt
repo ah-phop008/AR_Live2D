@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scene/Shinkan_live2d.unity
+  isLoaded: 1
+  isActive: 1

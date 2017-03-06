@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\sample\LAppModel.cs">
+    <Files>
+      <File FileName="Assets\Scripts\MyScript\TextBoxManager_Rubi.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\sample\LAppModel.cs" Line="218" Column="10" />
+      <File FileName="Assets\Scripts\sample\MyGameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\sample\LAppDefine.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\sample\LAppModelProxy.cs" Line="27" Column="23" />
+      <File FileName="Assets\Scripts\sample\LAppLive2DManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Live2D\framework\L2DEyeBlink.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

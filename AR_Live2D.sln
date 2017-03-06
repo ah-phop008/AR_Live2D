@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2AF1E536-9069-52B5-856D-3CAFF7F3D7EB}") = "AR_Live2D", "Assembly-CSharp.csproj", "{200C1447-0B78-208E-3562-5177436A7E3A}"
+EndProject
+Project("{2AF1E536-9069-52B5-856D-3CAFF7F3D7EB}") = "AR_Live2D", "Assembly-CSharp-Editor.csproj", "{F6D15542-63A9-EC5D-063C-2DEE56B9F869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{200C1447-0B78-208E-3562-5177436A7E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200C1447-0B78-208E-3562-5177436A7E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200C1447-0B78-208E-3562-5177436A7E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200C1447-0B78-208E-3562-5177436A7E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D15542-63A9-EC5D-063C-2DEE56B9F869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D15542-63A9-EC5D-063C-2DEE56B9F869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D15542-63A9-EC5D-063C-2DEE56B9F869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D15542-63A9-EC5D-063C-2DEE56B9F869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
