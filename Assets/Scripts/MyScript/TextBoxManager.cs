@@ -10,9 +10,10 @@ public class TextBoxManager : MonoBehaviour {
 	const int TAP_BODY = 0;
 	const int FLICK_HEAD = 1;
 	const int TAP_HEAD = 2;
+	const int FLICK_BODY = 3;
 
 
-	static string[,,] Speech = new string[SPECIES_OF_CHARACTER, 3, KIND_OF_SPEECH];
+	static string[,,] Speech = new string[SPECIES_OF_CHARACTER, 4, KIND_OF_SPEECH];
 
 	static Image panel;
 	static Text uiText;
@@ -24,8 +25,8 @@ public class TextBoxManager : MonoBehaviour {
 
 
 	int RUBI_NO = 0;
-	int SURVAL_NO = 2;
-	int SIZUKU_NO = 1;
+	int SURVAL_NO = 1;
+	int SIZUKU_NO = 2;
 
 
 
@@ -67,6 +68,10 @@ public class TextBoxManager : MonoBehaviour {
 			group = TAP_HEAD;
 			break;
 
+		case "flick_body":
+			group = FLICK_HEAD;
+			break;
+
 		}
 
 		if (group == -1) return;
@@ -86,9 +91,7 @@ public class TextBoxManager : MonoBehaviour {
 		Speech [RUBI_NO, FLICK_HEAD, 0] = "なにぃ～～？";
 		Speech [RUBI_NO, TAP_HEAD, 0] = "わああ～～～～";
 
-		Speech [SURVAL_NO, TAP_BODY, 0] = "すごーい";
-		Speech [SURVAL_NO, FLICK_HEAD, 0] = "たーのしー";
-		Speech [SURVAL_NO, TAP_HEAD, 0] = "頭をさわるフレンズなんだね";
+		Speech [SURVAL_NO, TAP_BODY, 0] = "びっくりしたー";
+		Speech [SURVAL_NO, TAP_HEAD, 0] = "たーのしー";
 	}
-
 }

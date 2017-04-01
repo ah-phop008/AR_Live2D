@@ -1,0 +1,43 @@
+{
+
+	"type": "Live2D Model Setting",
+
+	"name": "sa-baru.model",
+
+	"model": "sa-baru.model.moc",
+
+	"textures": [
+
+		"sa-baru.model.1024/texture_00.png"
+
+	]
+,
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"physics":"physics.json",
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/idle1.mtn","fade_in":2000, "fade_out":2000},
+			{"file":"motions/idle2.mtn","fade_in":2000, "fade_out":2000},
+			{"file":"motions/idle3.mtn","fade_in":2000, "fade_out":2000}
+			
+		],
+		"flick_body":
+		[
+			{"file":"motions/m_01.mtn","fade_in":500, "fade_out":500}
+		],
+		"tap_head":
+		[
+			{"file":"motions/m_02.mtn","fade_in":500, "fade_out":500}
+		],
+		"tap_body":
+		[
+			{"file":"motions/m_03.mtn","fade_in":500, "fade_out":500}
+		]
+	}
+}
