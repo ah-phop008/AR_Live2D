@@ -29,15 +29,15 @@
 		],
 		"flick_body":
 		[
-			{"file":"motions/m_01.mtn","fade_in":500, "fade_out":500}
+			{"file":"motions/m_1.mtn","fade_in":500, "fade_out":500}
 		],
 		"tap_head":
 		[
-			{"file":"motions/m_02.mtn","fade_in":500, "fade_out":500}
+			{"file":"motions/m_2.mtn","fade_in":500, "fade_out":500}
 		],
 		"tap_body":
 		[
-			{"file":"motions/m_03.mtn","fade_in":500, "fade_out":500}
+			{"file":"motions/m_3.mtn","fade_in":500, "fade_out":500}
 		]
 	}
 }

@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MyScript\TextBoxManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\sample\LAppDefine.cs">
     <Files>
       <File FileName="Assets\Scripts\MyScript\TextBoxManager.cs" Line="96" Column="3" />
       <File FileName="Assets\Scripts\sample\MyGameController.cs" Line="41" Column="46" />
