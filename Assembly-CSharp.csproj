@@ -60,6 +60,7 @@
      <Compile Include="Assets\Live2D\framework\L2DTargetPoint.cs" />
      <Compile Include="Assets\Live2D\framework\L2DViewMatrix.cs" />
      <Compile Include="Assets\Live2D\framework\Live2DFramework.cs" />
+     <Compile Include="Assets\Scripts\MyScript\AudioManager.cs" />
      <Compile Include="Assets\Scripts\MyScript\TextBoxManager.cs" />
      <Compile Include="Assets\Scripts\sample\ButtonChangeModel.cs" />
      <Compile Include="Assets\Scripts\sample\LAppDefine.cs" />

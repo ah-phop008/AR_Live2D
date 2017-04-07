@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\sample\LAppDefine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\sample\LAppModelProxy.cs">
     <Files>
-      <File FileName="Assets\Scripts\MyScript\TextBoxManager.cs" Line="96" Column="3" />
-      <File FileName="Assets\Scripts\sample\MyGameController.cs" Line="41" Column="46" />
-      <File FileName="Assets\Scripts\sample\LAppModel.cs" Line="545" Column="64" />
-      <File FileName="Assets\Scripts\sample\LAppDefine.cs" Line="44" Column="40" />
+      <File FileName="Assets\Scripts\MyScript\AudioManager.cs" Line="19" Column="3" />
+      <File FileName="Assets\Scripts\MyScript\TextBoxManager.cs" Line="95" Column="5" />
+      <File FileName="Assets\Scripts\sample\MyGameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\sample\LAppModel.cs" Line="424" Column="5" />
+      <File FileName="Assets\Scripts\sample\LAppDefine.cs" Line="14" Column="48" />
       <File FileName="Assets\Live2D\framework\L2DEyeBlink.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\sample\LAppLive2DManager.cs" Line="103" Column="5" />
+      <File FileName="Assets\Scripts\sample\LAppModelProxy.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -91,7 +91,7 @@ public class TextBoxManager : MonoBehaviour {
 		Speech [RUBI_NO, FLICK_HEAD, 0] = "なにぃ～～？";
 		Speech [RUBI_NO, TAP_HEAD, 0] = "わああ～～～～";
 
-		Speech [SURVAL_NO, TAP_BODY, 0] = "びっくりしたー";
-		Speech [SURVAL_NO, TAP_HEAD, 0] = "たーのしー";
+		//Speech [SURVAL_NO, TAP_BODY, 0] = "びっくりしたー";
+		//Speech [SURVAL_NO, TAP_HEAD, 0] = "たーのしー";
 	}
 }
